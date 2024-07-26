@@ -1,0 +1,40 @@
+#homeware{
+    background-color: black;
+    .container{
+      width: 1490px;
+      margin: 0px auto;
+      
+      .row{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .tiny-home-img{
+
+        img{
+            height: 400px;
+            padding: 30px 0px;
+        }
+      }
+      .tiny-home-text{
+        color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin: 80px 0px;
+        h2{
+            font-size: 45px;
+            margin: 7px 0px;
+        }
+        h5{
+            font-size: 20px;
+        }
+        button{
+            @include site-btn;
+        }
+        button:hover{
+            @include site-btn-hover;
+        }
+      }
+    }
+}

@@ -1,0 +1,251 @@
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+header {
+  padding: 15px 0px;
+}
+header .container {
+  width: 1490px;
+  margin: 0px auto;
+}
+header .container .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+header .container .site-logo img {
+  height: 40px;
+  margin-left: 1px;
+}
+header .container .site-list ul {
+  display: flex;
+  list-style: none;
+}
+header .container .site-list ul li {
+  margin-right: 35px;
+  font-size: 18px;
+  color: black;
+}
+header .container .basket span {
+  font-size: 18px;
+  margin: 0px 3px;
+  color: black;
+}
+
+#homeware {
+  background-color: black;
+}
+#homeware .container {
+  width: 1490px;
+  margin: 0px auto;
+}
+#homeware .container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+#homeware .container .tiny-home-img img {
+  height: 400px;
+  padding: 30px 0px;
+}
+#homeware .container .tiny-home-text {
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 80px 0px;
+}
+#homeware .container .tiny-home-text h2 {
+  font-size: 45px;
+  margin: 7px 0px;
+}
+#homeware .container .tiny-home-text h5 {
+  font-size: 20px;
+}
+#homeware .container .tiny-home-text button {
+  padding: 15px 60px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+#homeware .container .tiny-home-text button:hover {
+  background-color: rgb(230, 228, 222);
+  border: 1px solid rgb(0, 0, 0);
+  color: black;
+}
+
+#vase-carousel {
+  margin: 80px 0px;
+}
+#vase-carousel .container {
+  width: 1490px;
+  margin: 0px auto;
+}
+#vase-carousel .container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+#vase-carousel .container .vase {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+#vase-carousel .container .vase img {
+  height: 270px;
+}
+
+#products {
+  margin: 80px 0px;
+}
+#products .container {
+  width: 1490px;
+  margin: 0px auto;
+}
+#products .container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+#products .container .products-card {
+  position: relative;
+}
+#products .container .products-card img {
+  width: 100%;
+  height: 320px;
+}
+#products .container .products-card .absolute-products {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 30px;
+  color: white;
+}
+
+#brands {
+  margin: 80px 0px;
+}
+#brands .container {
+  width: 1490px;
+  margin: 0px auto;
+}
+#brands .container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+#brands .container .brands-text {
+  display: flex;
+  text-align: center;
+}
+#brands .container .brands-text p {
+  font-size: 45px;
+  display: inline;
+  color: rgb(230, 228, 222);
+}
+#brands .container .brands-text span {
+  font-size: 45px;
+}
+#brands .container .brands-img {
+  display: flex;
+  align-items: center;
+  margin: 15px 80px;
+}
+#brands .container .brands-img .ad {
+  height: 85px;
+  padding: 0px 25px;
+}
+#brands .container .brands-img .dezeen {
+  height: 95px;
+  padding: 0px 25px;
+}
+#brands .container .brands-img .marie-clarie {
+  height: 98px;
+  padding: 0px 25px;
+}
+#brands .container .brands-img .elle {
+  height: 60px;
+  padding: 0px 25px;
+}
+#brands .container .brands-img .cosmopolitan {
+  height: 33px;
+  padding: 0px 25px;
+}
+#brands .container .brands-img .aw {
+  height: 91px;
+  padding: 0px 25px;
+}
+
+#collection {
+  margin: 80px 0px;
+}
+#collection .container {
+  width: 1490px;
+  margin: 0px auto;
+}
+#collection .container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+#collection .container .collection-img img {
+  height: 500px;
+  margin-left: -15px;
+}
+#collection .container .collection-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 80px 0px;
+}
+#collection .container .collection-text h5 {
+  color: black;
+  font-size: 45px;
+}
+#collection .container .collection-text p {
+  font-size: 20px;
+  color: black;
+}
+#collection .container .collection-text button {
+  padding: 15px 60px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+#collection .container .collection-text button:hover {
+  background-color: rgb(230, 228, 222);
+  border: 1px solid rgb(0, 0, 0);
+  color: black;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(230, 228, 222);
+}/*# sourceMappingURL=main.css.map */

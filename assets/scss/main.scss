@@ -1,0 +1,17 @@
+@import "./cols";
+@import "./variable";
+@import "./mixins";
+@import "./header";
+@import "./homeware";
+@import "./vase-carousel";
+@import "./products";
+@import "./brands";
+@import "./collection";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body{
+    background-color: rgb(230,228,222);
+}
+

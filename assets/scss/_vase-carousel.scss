@@ -1,0 +1,20 @@
+#vase-carousel {
+    margin: 80px 0px;
+  .container {
+    width: 1490px;
+    margin: 0px auto;
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .vase {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+      img {
+        height: 270px;
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+header {
+    padding: 15px 0px;
+  
+    .container {
+      width: 1490px;
+      margin: 0px auto;
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .site-logo {
+        img {
+          height: 40px;
+          margin-left: 1px;
+        }
+      }
+      .site-list {
+        ul {
+          display: flex;
+          list-style: none;
+          li {
+            margin-right: 35px;
+            font-size: $HeaderFont;
+            color: black;
+          }
+        }
+      }
+      .basket {
+        span {
+          font-size: $HeaderFont;
+          margin: 0px 3px;
+          color: black;
+        }
+      }
+    }
+  }
+
+  
